@@ -2,33 +2,35 @@
 
 A very simple hangman-like game.
 
-Simple but epic gameplay::
+Simple but epic gameplay:
 
-    Welcome to demon-kill!
-     @ <- you              demon -> &
-    
-    ___________
-    Enter your guess: a
-     @  the demon is coming! &
-    
-    ___________
-    Enter your guess: u
-     @               &
-    
-    ___________
-    Enter your guess: e
-     @               &
-    
-    _____e____e
-    Enter your guess: p
-     @               &
-    
-    p____e____e
-    Enter your guess: l
-     @       &
-    
-    p____e____e
-    Enter your guess:
+```
+Welcome to demon-kill!
+ @ <- you              demon -> &
+
+___________
+Enter your guess: a
+ @  the demon is coming! &
+
+___________
+Enter your guess: u
+ @               &
+
+___________
+Enter your guess: e
+ @               &
+
+_____e____e
+Enter your guess: p
+ @               &
+
+p____e____e
+Enter your guess: l
+ @       &
+
+p____e____e
+Enter your guess:
+```
 
 ## License
 
