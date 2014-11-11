@@ -1,8 +1,6 @@
 # demon-kill
 
-A very simple hangman-like game.
-
-Simple but epic gameplay:
+A very simple hangman-like game, featuring epic gameplay:
 
 ```
 Welcome to demon-kill!
@@ -31,6 +29,14 @@ Enter your guess: l
 p____e____e
 Enter your guess:
 ```
+
+## How to play
+
+Assuming [Leiningen](http://leiningen.org/) is installed:
+
+    $ git clone https://github.com/brisad/demon-kill
+    $ cd demon-kill
+    $ lein run
 
 ## License
 
