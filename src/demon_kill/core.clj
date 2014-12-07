@@ -46,7 +46,7 @@
 (defn guessed-all?
   "Return true if all correct characters have been found."
   [{correct-guesses :correct-guesses}]
-  (= (count (clojure.set/difference (set secret-word) correct-guesses)) 0))
+  (empty? (clojure.set/difference (set secret-word) correct-guesses)))
 
 (defn read-char
   "Read one character from *in*. Consumes whole line."
